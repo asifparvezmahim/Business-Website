@@ -1,0 +1,31 @@
+.header {
+    font-family: 'Mitr', sans-serif;
+    margin-top: 10%;
+    width: 25%;
+    margin-left: 40%;
+}
+
+.form {
+    background-color: wheat;
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+form p {
+    font-size: 25px;
+}
+
+form button {
+    font-size: 20px;
+    margin-left: 39%;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+}
+
+form button:hover {
+    background-color: blueviolet;
+}
