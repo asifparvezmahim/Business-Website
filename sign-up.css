@@ -1,0 +1,53 @@
+.header h1 {
+    margin-left: 35%;
+}
+
+.header h2 {
+    margin-left: 39%;
+    margin-top: 10%;
+}
+
+form {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.personal-info {
+    border: 5px solid wheat;
+    background-color: wheat;
+}
+
+.adress {
+    border: 5px solid wheat;
+    background-color: wheat;
+    margin-left: 10px;
+}
+
+.education {
+    border: 5px solid wheat;
+    background-color: wheat;
+    margin-left: 10px;
+}
+
+.account {
+    border: 5px solid wheat;
+    background-color: wheat;
+    margin-left: 10px;
+}
+
+
+button {
+    border: 3px solid lightgoldenrodyellow;
+    margin-top: 80px;
+    margin-left: 45%;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: lightgoldenrodyellow;
+
+}
+
+button:hover {
+    background-color: aqua;
+}
