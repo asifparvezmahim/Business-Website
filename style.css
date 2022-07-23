@@ -29,3 +29,20 @@ img {
     padding-left: 15%;
     padding-top: 20px;
 }
+
+
+
+@media only screen and (max-width:1095px) {
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width:1095px) {
+    .entry {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

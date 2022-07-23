@@ -33,7 +33,8 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 30px;
     padding-bottom: 25px;
-    padding-left: 15px
+    padding-left: 15px;
+    row-gap: 5px;
 }
 
 .second {
@@ -41,7 +42,8 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 15px
+    padding-left: 15px;
+    row-gap: 5px;
 }
 
 .third {
@@ -49,5 +51,48 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 15px
+    padding-left: 15px;
+    row-gap: 5px;
+}
+
+@media only screen and (max-width:1095px) {
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width:1095px) {
+    .entry {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:1095px) {
+    .first {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1095px) {
+    .second {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1095px) {
+    .third {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+        padding-top: 10px;
+    }
 }
